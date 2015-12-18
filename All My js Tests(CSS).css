@@ -1,0 +1,186 @@
+.HeadingDiv
+{
+	background-color: lightgray;
+	margin:0px 660px 0px 660px;
+	border-radius: 50px;
+	padding:0px 0px 0px 0px;
+	border: 4px solid black;
+}
+h1
+{
+	text-align: center;
+	margin:0px 0px 0px 0px;
+    font-family:Arial;
+    font-size:30px;
+}
+#HeadDiv
+{
+    margin:0px auto 0px auto;
+    background-color:gray;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+body
+{
+    margin:0px 0px 0px 0px;
+    background-color:lightgray;
+    z-index:10;
+}
+#Main_Menu
+{
+    background-color:gray;
+    font-family:Arial;
+    font-size:20px;
+    border-bottom:4px solid black;
+}
+#Main_Menu_Wrapper
+{
+    width:960px;
+    margin-left:10px;
+    margin-right:auto;
+    text-align:left;
+}
+#Main_Menu ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#Main_Menu ul li
+{
+    display:inline-block;
+}
+#Main_Menu ul li:hover
+{
+    background-color:#333;
+}
+#Main_Menu ul li a,visited
+{
+        color: #CCC;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#Main_Menu ul li:hover ul
+{
+    display:block;
+}
+#Main_Menu ul ul
+{
+    display:none;
+        position: absolute;
+    background-color: gray;
+    border: 5px solid black;
+    border-top: 0;
+    margin-left: -5px;
+}
+#Main_Menu ul ul li
+{
+    display:block;
+}
+#Main_Menu ul ul li a:hover
+{
+    color:red
+}
+#Overlay
+{
+    display:none;
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-color:white;
+    opacity:.7;
+    z-index:9999;
+}
+#DlgBox
+{
+    display:none;
+    position:fixed;
+    width:480px;
+    z-index:9999;
+    border-radius:5px;
+    background-color:gray;
+    border:2px solid black;
+}
+#DlgBox-Header
+{
+    background-color:gray;
+    color:white;
+    font-size:25px;
+    font-family:Arial;
+    padding:10px;
+    margin:10px 10px 0px 10px;
+}
+#DlgBox-Body
+{
+    background-color:lightgray;
+    color:black;
+    font-size:20px;
+    padding:10px;
+    margin:0px 10px 0px 10px;
+    font-family:Arial;
+    border-radius:5px;
+}
+#DlgBox-Footer
+{
+    background-color:gray;
+    text-align:right;
+    padding:10px;
+    margin:0px 10px 10px 10px;
+}
+#DlgBox-Footer button
+{
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    padding:5px;
+    border:0px;
+}
+#bTools
+{
+    text-align:center;
+    border:0px;
+    background-color:gray;
+    margin-left:0px;
+    font-size:20px;
+    margin-top:0px;
+    color:lightGray;
+    padding-right:170px;
+    padding-top:10px;
+    padding-left:15px;
+    padding-bottom:5px;
+    margin-right:0px;
+}
+#Main_Menu ul ul li button:hover
+{
+    color:red;
+    background-color:#333;
+}
+#bGames
+{
+    text-align:center;
+    border:0px;
+    background-color:gray;
+    margin-left:10px;
+    font-size:20px;
+    margin-top:10px;
+    color:lightGray;
+    padding-right:150px;
+    padding-top:10px;
+    margin-top:0px;
+    margin-left:0px;
+    padding-left:15px;
+    padding-bottom:10px;
+}
+#SBTO
+{
+    border-bottom:2px solid white;
+}
+#McCodeLink
+{
+
+}

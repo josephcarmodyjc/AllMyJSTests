@@ -1,0 +1,71 @@
+<! DOCTYPE Html>
+<html>
+<head>
+    <title>Joe's Js Tests</title>
+	<link rel="stylesheet" type="text/css" href="All My js Tests(CSS).css">
+<script type="text/javascript">
+    function DlgOK()
+    {
+        var ovrly = document.getElementById('Overlay');
+        var Dlg = document.getElementById('DlgBox');
+        ovrly.style.display = "none";
+        Dlg.style.display = "none";
+
+    }
+    function ActivateDlg()
+    {
+        var ovrly = document.getElementById('Overlay');
+        var Dlg = document.getElementById('DlgBox');
+        ovrly.style.display = "block";
+        Dlg.style.display = "block";
+
+        var winWidth = window.innerWidth;
+        var winHeight = window.innerHeight;
+
+        Dlg.style.left = (winWidth / 2) - 480 / 2 + "px";
+        Dlg.style.top = "150px";
+    }
+</script>
+</head>
+<body>
+    <div id="Overlay">
+    </div>
+    <div id="DlgBox">
+        <div id="DlgBox-Header">
+            <span id="SBTO">Please Note</span>
+</div>
+        <div id="DlgBox-Body">
+            Sorry, But This Option is Not Yet Available
+        </div>
+        <div id="DlgBox-Footer">
+            <button onclick="DlgOK()">OK</button>
+        </div>
+    </div>
+    <div id="HeadDiv">
+        <div class="HeadingDiv"><h1>HI</h1></div>
+    </div>
+<div id="Main_Menu">
+    <div id="Main_Menu_Wrapper">
+        <ul>
+            <li>
+                <a href="#">Utilities</a>
+                <ul>
+                    <li>
+                        <button id="bTools" onclick="ActivateDlg()">Tools</button>
+                    </li>
+                    <li>
+                        <button id="bGames" onclick="ActivateDlg()">Games</button>
+                    </li>
+                    <li>
+                        <a href="https://code.org/mc" target="_blank" id="McCodeLink">A very cool website.</a>
+                    </li>
+                    <li>
+                        <a href="https://studio.code.org/c/155331127" target="_blank">My StarWars Game (Code.org)</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
